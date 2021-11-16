@@ -1,3 +1,41 @@
-html{
-    background-color: gr;
+
+.container{
+  
+    background-color:#53AE29;
+    
+}
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container .logo{
+    display: inline-block;
+    float: left;
+    padding: 40px 0px;
+    font-size: 30px;
+    
+    
+}
+.container nav{
+
+    float: right;
+    font-size: 30px;
+    
+   
+    
+}
+
+.container nav ul{
+    padding: 40px;
+    list-style: none;
+}
+
+.container nav ul li{
+    display: inline-block;
+    padding:  0px 40px;
+}
+.container nav ul a{
+    text-decoration: none;
 }
