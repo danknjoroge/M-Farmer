@@ -13,7 +13,7 @@
 .container .logo{
     display: inline-block;
     float: left;
-    padding: 40px 0px;
+    padding: 30px 0px;
     font-size: 30px;
     
     
@@ -28,14 +28,34 @@
 }
 
 .container nav ul{
-    padding: 40px;
+    padding: 30px;
     list-style: none;
+    font-weight: bold;
+    
 }
 
 .container nav ul li{
     display: inline-block;
-    padding:  0px 40px;
+    padding:  0px 30px;
+    
 }
 .container nav ul a{
     text-decoration: none;
+    color: black;
+}
+
+.container nav ul a:hover{
+    color: #A88357;
+}
+
+.welcome{
+    text-align: center;
+    padding: 185px;
+    font-size: 40px;
+    line-height: 150px;
+    background-image:url("images/seedq.png") ;
+    background-size: cover;
+    color: black;
+    opacity: 0.75;
+    font-weight: bolder;
 }
