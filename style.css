@@ -1,4 +1,6 @@
-
+*{
+    margin: 0;
+}
 .container{
   
     background-color:#53AE29;
@@ -18,11 +20,16 @@
     
     
 }
+
+.container h3{
+    
+    margin-top: 33px;
+}
 .container nav{
 
     float: right;
     font-size: 30px;
-    
+    margin-top: 40px;
    
     
 }
@@ -84,27 +91,48 @@
     color: #53AE29;
 
 }
+
+.mainfooter{
+    background-color: #53AE29;
+}
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 70px;
-    margin: 1%;
+    padding: 20px;
+    margin: 0 7%;
 }
 
 .footer .address .location{
-    font-size: 25px;
-    color:;
+    font-size: 35px;
+    
 }
 
 .footer .mail .email{
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .footer .call .phone{
-    font-size: 25px;
+    font-size: 35px;
 }
 .footer p{
-    background-color: yellowgreen;
+    
     line-height: 30px;
+    padding-bottom: 0px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    padding: 50px;
+    margin: 0% 40%;
+    
+}
+.images:hover{
+    color: #A88357;
+}
+
+.mainfooter .copyrite{
+   text-align: center;
+    font-size: 15px;
 }
