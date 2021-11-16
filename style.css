@@ -55,4 +55,15 @@ list-style: none;
 
 .about{
     background-image: url("images/greenhouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width:100% ;
+    text-align: center; 
+    color: white;
+}
+.about h3 {
+    padding: 580px;
+    font-weight: bold;
+    font-size: 48px;
 }
