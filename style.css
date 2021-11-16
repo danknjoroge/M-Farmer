@@ -75,7 +75,7 @@ list-style: none;
    
 }
 .our{
-    padding: 5px;
+    padding-left: 70px;
     
 }
 .our h5{
@@ -99,5 +99,13 @@ list-style: none;
     padding: 20px;
     font-size: 30px;
   
+}
+.pack{
+    display: flex;
+    justify-content: relative;
+    float: right;
+    height: 60vh;
+    padding-right: 150px;
+    margin-top: -630px;
 }
 
