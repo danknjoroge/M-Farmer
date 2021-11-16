@@ -27,3 +27,17 @@ nav{
     margin-top: 30px;
     
 }
+.landmap{
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+  font-size: 36px;
+}
+.description h5{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.description p{
+    margin-top: 20px;
+}
