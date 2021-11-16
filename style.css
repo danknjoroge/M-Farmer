@@ -59,3 +59,52 @@
     opacity: 0.75;
     font-weight: bolder;
 }
+
+.certification{
+    display: flex;
+    justify-content: space-between;
+}
+
+.certification .seed{
+    font-size: 50px;
+    padding: 30px 50px;
+    line-height: 70px;
+    margin-left: 50px;
+    font-style: italic;
+}
+.certification button{
+    padding: 15px 45px;
+    border-radius: 25px;
+    background-color: #A88357;
+    border: none;
+    font-weight: bold;
+}
+
+.certification button:hover{
+    color: #53AE29;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;
+    margin: 1%;
+}
+
+.footer .address .location{
+    font-size: 25px;
+    color:;
+}
+
+.footer .mail .email{
+    font-size: 25px;
+}
+
+.footer .call .phone{
+    font-size: 25px;
+}
+.footer p{
+    background-color: yellowgreen;
+    line-height: 30px;
+}
