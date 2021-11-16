@@ -109,3 +109,43 @@ list-style: none;
     margin-top: -630px;
 }
 
+.f1 h1{
+    font-weight: 10px;
+    font-size: 10px;
+}
+.address{
+    font-size: 50px;
+    color: black;
+}
+
+.mail{
+    font-size: 50px;
+    color: black;
+}
+
+.call{
+    ont-size: 50px;
+    color: black;
+}
+
+.f1 {
+    background-color: #53ae29;
+    padding: 70px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.f1 h1{
+color: white;
+}
+
+.f1 p{
+    color: white;
+}
+.copy{
+    margin-top: 40px;
+    text-align: center;
+}
