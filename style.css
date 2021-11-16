@@ -1,0 +1,76 @@
+.nav-bar{
+    background-color: green;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.nav-bar img{
+    float: left;
+    position: relative;
+    
+}
+.nav-bar h3{
+    display: inline;
+    margin-left: -830px;
+   
+    
+}
+a:hover{color: brown;
+}
+.nav-bar a{ 
+   position: relative;
+   display: inline-block;
+   flex-direction: row;
+   margin-right: 50px;
+}
+.ourseed>h2{
+    text-align: center;
+    
+}
+
+.img:hover{
+    transform: scale(2.0);
+}
+
+.seeds{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    height: 450px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid green;
+    box-shadow: 2px 3px 4px blue;
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+    
+}
+.btn{
+    background-color: #A88357;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    
+    height: 40px;
+    width: 100px;
+    text-align: center;
+
+   
+    
+}
+
+
+    
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: green;
+    height: 450px;
+}
+
