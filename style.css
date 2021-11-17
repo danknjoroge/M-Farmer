@@ -1,9 +1,12 @@
 .nav-bar{
-    background-color: green;
+    background-color: rgb(25, 230, 25);
     align-items: center;
     display: flex;
-    height: 120px;
+   
     justify-content: space-between;  
+    position: sticky;
+    top: 0;
+    z-index: 100;
     
 }
 .nav-bar img{

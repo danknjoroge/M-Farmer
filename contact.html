@@ -19,8 +19,8 @@
                 <label for="email">Email Address</label> <br> <br>
                 <input type="text" id="email" name="email" placeholder="Email" required> <br> <br>
         
-                <label for="email">Phone</label> <br> <br>
-                <input type="text" id="email" name="email" placeholder="Phone Number" required> <br> <br>
+                <label for="Phone">Phone</label> <br> <br>
+                <input type="text" id="Phone" name="phone" placeholder="Phone Number" required> <br> <br>
         
                 <label for="message">Message</label> <br> <br>
                 
@@ -35,22 +35,23 @@
                 <h3>Please fill the form below</h3>
                 <label for="fname">Full Name</label> <br> <br>
                 <input type="text" id="fname" name="fullname" placeholder="Full Name" > <br> <br>
+                <div id="error" class="error hidden">Please enter a valid phone number</div>
         
                 <label for="email">Email Address</label> <br> <br>
                 <input type="text" id="email" name="email" placeholder="Email" > <br> <br>
         
                 <label for="email">Phone</label> <br> <br>
-                <input type="text" id="email" name="email" placeholder="Phone Number" > <br> <br>
+                <input type="text" id="phone" name="phone" placeholder="Phone Number" > <br> <br>
         
                 <label for="message">Message</label> <br> <br>
                 
                 <textarea name="message" id="message"  placeholder="Write your message" style="height: 200px;"></textarea> <br>
          <br>
-                <input type="Submit" value="Send Message" class="btn">
+                <input type="submit" value="Send Message" class="btn">
             </form>
         </div>
     </div>
     <script src="index.js"></script>
-    
+    <script src="phoneno-all-numeric-validation.js"></script>
 </body>
 </html>
