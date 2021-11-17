@@ -1,3 +1,4 @@
+
 $(document).ready(function (){
     const email = document.getElementById('email');
     email.addEventListener('blur', ()=>{

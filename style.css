@@ -2,9 +2,7 @@
     background-color: green;
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;  
     
 }
 .nav-bar img{
@@ -99,11 +97,16 @@ input[type=submit]:hover {
 
        
       }
-
-        .form{
+.form{
             display: flex;
             justify-content: space-evenly;
         }
+.ourseed .services{
+    background-image: url(images/maizeplant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -20px;
+}
 
     
 
