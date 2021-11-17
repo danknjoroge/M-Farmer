@@ -99,3 +99,31 @@ nav{
     background-color: #A88357;
     border: none;
 }
+.major{
+    background-color: #53AE29;
+}
+
+.down p{
+    color: white;
+}
+.location{
+    font-size: 50px;
+}
+.email{
+    font-size: 50px;
+}
+.call{
+    font-size: 50px;
+}
+.fb{
+    font-size: 50px;
+    color: black;
+}
+.ig{
+    font-size: 50px;
+    color: purple;
+}
+.tw{
+    font-size: 50px;
+    color:black;
+}
