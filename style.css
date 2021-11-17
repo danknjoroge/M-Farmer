@@ -61,7 +61,7 @@
 
 .welcome{
     text-align: center;
-    padding: 385px;
+    padding: 320px;
     font-size: 40px;
     line-height: 150px;
     background-image:url("images/seedq.png") ;
@@ -76,8 +76,81 @@
 }
 
 .serv{
-    background-color: blueviolet;
+   
     display: flex;
+    padding: 70px 50px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.serv .cert{
+    font-size: 30px;
+    border: none;
+    padding: 50px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #A88357;
+}
+
+.serv .delivery{
+    font-size: 30px;
+    border: none;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #A88357;
+}
+
+.serv .consult{
+    font-size: 30px;
+    border: none;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #A88357;
+}
+
+.why{
+    
+    text-align: center;
+    font-size: 70px;
+    color: #A88357;
+    padding: 50px;
+}
+
+.why span{
+    color: #53AE29;;
+}
+
+.why hr{
+    width: 170px;
+    height: 10px;
+    text-align: center;
+    background-color: #EBDFD1; 
+    margin-left: 42%;
+}
+
+
+.serv i{
+    
+   
+    font-size: 90px;
+    align-items: center;
+    margin-left: 180px;
+}
+.serv p{
+    font-size: 35px ;
+    font-style: italic;
+    line-height: 55px;
+}
+.serv h2{
+    text-align: center;
+    line-height: 150px;
 }
 
 
@@ -86,7 +159,7 @@
     clear: both;
     display: flex;
     justify-content: space-between;
-    padding: 30px 0px;
+    padding: 70px 0px;
 }
 
 
