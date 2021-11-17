@@ -63,5 +63,19 @@ nav{
     margin-top: 80px;
     padding: 10px;
 }
+.inner{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+}
+.main{
+    background-color: #EBDFD1;
+    padding-top: 100px;
+}
+.main h5{
+   text-align: center; 
+   font-weight: 100px;
+   margin-top: 50px;
+}
 
 
