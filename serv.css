@@ -4,7 +4,7 @@
 .containe{
   
     background-color:#53AE29;
-    position: sticky;
+  
     width: 100%;
     padding: 0px;
     
@@ -17,7 +17,7 @@
 
 .containe .logo{
     display: inline-block;
-    float:left;
+    float: left;
     padding: 30px 0px;
     font-size: 30px;
     color: black;
@@ -34,7 +34,6 @@
     float: right;
     font-size: 30px;
     margin-top: 40px;
-    position: sticky;
    
     
 }
@@ -60,7 +59,12 @@
     color: #A88357;
     background-color: #EBDFD1;
 }
-.main .inner img:hover{
+.ourseed>h2{
+    text-align: center;
+    
+}
+
+.img:hover{
     transform: scale(2.0);
 }
 
@@ -118,6 +122,7 @@ input[type=text], textarea {
         width: 600px;
         height: 800px;
         margin-top: 30px;
+        margin-bottom: 30px;
         
 
        
@@ -143,8 +148,10 @@ input[type=text], textarea {
 
 }
 .ourseed .services h2,h3{
+    
     text-align: center;
-    color: white;
+    color: #53AE29;
+    margin-bottom: 30px;
 
 }
 .ourseed .services .advice ol{
@@ -158,12 +165,13 @@ input[type=text], textarea {
     font-size: 18px;}
     
 
+    
+
 *{
     margin: 0%;}
 
 nav{
     display: flex ;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 3px;
     background-color: #53AE29;
@@ -338,32 +346,6 @@ botton:hover{
     font-size: 50px;
     color:black;}
 
-.btn{
-    padding: 15px 45px;
-    border-radius:  25px 25px 10px 25px;
-    background-color: #A88357;
-    border: none;
-    font-weight: bold;
-    width: 240px;
-}
- .btn:hover{
-    color:#53AE29;;
-    background-color: #EBDFD1;
-}
-input[type=text], textarea {
-    width: 70%;
-    padding: 12px;
-    border: 1px solid rgb(172, 16, 16);
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-left: 10px;
-    }
-
-
-
-
-    
 
 
 

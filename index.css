@@ -1,7 +1,8 @@
-*{
-    margin: 0;
-}
-.container{
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}.container{
   
     background-color:#53AE29;
   
@@ -58,136 +59,81 @@
     color: #A88357;
     background-color: #EBDFD1;
 }
-
-.welcome{
-    text-align: center;
-    padding: 320px;
-    font-size: 35px;
-    line-height: 150px;
-    background-image:url("images/seedq.png") ;
+.about{
+    background-image: url("images/greenhouse.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    color: black;
-    opacity: 0.75;
-    font-weight: bolder;
-    position: relative;
-    left: 0;
-    
-    
-}
-
-.serv{
-   
-    display: flex;
-    padding: 70px 50px;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.serv .cert{
-    font-size: 30px;
-    border: none;
-    padding: 50px;
-    margin: 10px;
-    box-sizing: border-box;
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px #A88357;
-}
-
-.serv .delivery{
-    font-size: 30px;
-    border: none;
-    padding: 50px;
-    box-sizing: border-box;
-    margin: 10px;
-    border-radius: 30px;
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px #A88357;
-}
-
-.serv .consult{
-    font-size: 30px;
-    border: none;
-    padding: 30px;
-    box-sizing: border-box;
-    margin: 10px;
-    border-radius: 30px;
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px #A88357;
-}
-
-.why{
-    
+    height: 80vh;
+    width:100% ;
     text-align: center;
-    font-size: 70px;
-    color: #A88357;
-    padding: 50px;
+    color: white;
 }
-
-.why span{
-    color: #53AE29;;
-}
-
-.why hr{
-    width: 170px;
-    height: 10px;
-    text-align: center;
-    background-color: #EBDFD1; 
-    margin-left: 42%;
-}
-
-
-.serv i{
-    
-   
-    font-size: 90px;
-    align-items: center;
-    margin-left: 180px;
-}
-.serv p{
-    font-size: 35px ;
-    font-style: italic;
-    line-height: 55px;
-}
-.serv h2{
-    text-align: center;
-    line-height: 150px;
-}
-
-
-
-.certification{
-    clear: both;
-    display: flex;
-    justify-content: space-between;
-    padding: 70px 0px;
-}
-
-
-.certification .seed{
-    font-size: 50px;
-    padding: 30px 50px;
-    line-height: 70px;
-    margin-left: 50px;
-    font-style: italic;
-}
-.certification button{
-    padding: 15px 45px;
-    border-radius: 25px;
-    background-color: #A88357;
-    border: none;
+.about h3 {
+    padding: 580px;
     font-weight: bold;
-    width: 180px;
+    font-size: 60px;
+}
+.company{
+    padding: 40px;
+    font-size: 30px;
+    font-weight:initial;
+}
+.seed1{
+   margin-left: 50px;
+   
+}
+.company1{
+    padding: 50px;
+    float: right;
+}
+.about{
+    color:black;
+    
 }
 
-.certification button:hover{
-    color: #53AE29;
-    background-color: #EBDFD1;
-
+.our{
+    background-color: #A88357;
 }
-
+.mission h5{
+    color: #8D2A2A;
+    font-size: 42px;
+}
+.mission img{
+    margin-left: 0px;
+}
+ .vision h5 {
+    color: #8D2A2A;
+    font-size: 42px;
+ }
+ .vision img{
+     margin-left: 10px;
+ }
+.mission{
+    padding-left: 0px;
+    font-size: 30px;
+    margin-left: 70px;
+}
+.vision{
+   float: right;
+    font-size:30px;
+   margin-top: -490px;
+   padding-right: 50px;
+   margin-right: 80px;
+}
+.seeds{
+    padding: 60px;
+    font-size: 30px;
+}
+.seeds p{
+    padding: 20px;
+}
+.seeds h5{
+    color: #8D2A2A;
+    font-size: 42px;
+    text-align: center;
+}
 .mainfooter{
     background-color: #53AE29;
-   
 }
 .footer{
     display: flex;
@@ -196,28 +142,20 @@
     padding: 10px;
     margin: 0 5%;
 }
-
 .footer .address .location{
     font-size: 35px;
-    
 }
-
 .footer .mail{
-    
     font-size: 35px;
     line-height: 50px;
-   
 }
-
 .footer .mail .email{
     font-size: 35px;
 }
-
 .footer .call .phone{
     font-size: 35px;
 }
 .footer p{
-    
     line-height: 30px;
     padding-bottom: 0px;
     color: white;
@@ -228,33 +166,26 @@
     justify-content: space-evenly ;
     padding: 50px;
     margin: 0% 40%;
-    
 }
-
 .images:hover{
     color: #A88357;
 }
-
 .mainfooter .copyrite{
    text-align: center;
     font-size: 15px;
 }
 #image{
-   
     margin-right: 30px;
 }
 .footer .news{
-    
     font-size: 45px;
 }
 .mail ul{
     list-style: none;
 }
-
 .mail ul li {
     text-decoration: none;
 }
-
 .fb{
     font-size: 50px;
     color: black;
@@ -267,7 +198,6 @@
     font-size: 50px;
     color:black;
 }
-
 .btn{
     padding: 15px 45px;
     border-radius:  25px 25px 10px 25px;
@@ -276,7 +206,10 @@
     font-weight: bold;
     width: 180px;
 }
-
+ .btn:hover{
+    color:#53AE29;;
+    background-color: #EBDFD1;
+}
 input[type=text], textarea {
     width: 70%;
     padding: 12px;
@@ -285,9 +218,4 @@ input[type=text], textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-left: 10px;
-}
-
-.btn:hover{
-    color:#53AE29;;
-    background-color: #EBDFD1;
-}
+    }
