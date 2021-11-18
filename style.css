@@ -28,6 +28,7 @@ a:hover{color: brown;
    flex-direction: row;
    margin-right: 50px;
    text-decoration: none;
+   
 }
 .ourseed>h2{
     text-align: center;
@@ -69,14 +70,7 @@ a:hover{color: brown;
 
 
     
-.foot{
-    display: flex;
-    justify-content: space-between;
-}
-.footer{
-    background-color: green;
-    height: 450px;
-}
+
 
 /*form styles*/
 input[type=text], textarea {
@@ -99,8 +93,8 @@ input[type=submit]:hover {
         padding: 20px;
         width: 600px;
         height: 800px;
+        margin-top: 30px;
         
-        margin-bottom: 20px;
 
        
       }
@@ -140,9 +134,61 @@ input[type=submit]:hover {
     font-size: 18px;
     
 }
-.error-hint{
-    color: red;
+.mainfooter{
+    background-color: #53AE29;
 }
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 5%;
+}
+.footer .address .location{
+    font-size: 35px;
+}
+.footer .mail{
+    font-size: 35px;
+    line-height: 50px;
+}
+.footer .mail .email{
+    font-size: 35px;
+}
+.footer .call .phone{
+    font-size: 35px;
+}
+.footer p{
+    line-height: 30px;
+    padding-bottom: 0px;
+    color: white;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    padding: 50px;
+    margin: 0% 40%;
+}
+.images:hover{
+    color: #A88357;
+}
+.mainfooter .copyrite{
+   text-align: center;
+    font-size: 15px;
+}
+#image{
+    margin-right: 30px;
+}
+.footer .news{
+    font-size: 45px;
+}
+.mail ul{
+    list-style: none;
+}
+.mail ul li {
+    text-decoration: none;
+}
+
 
     
 

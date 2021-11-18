@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <script>
+    <!-- <script>
 
         var form = document.getElementById('form');
 
@@ -21,16 +21,17 @@
             var email = document.getElementById()
         })
 
-    </script>
+    </script> -->
 
     <div class="nav-bar">
         <img src="images/logo-removebg-preview.png" alt="" height="60px" width="80px">
         <h3 style="color: black;">M-Farmer</h3>
         <div style="float: right;">
-        <a href="#"><h4>Home</h4></a>
-        <a href="#About"><h4>About Us</h4></a>
-        <a href="#"><h4>Services</h4> </a>
-        <a href="#contacts"><h4>Contacts</h4> </a>
+        <a href=""><h4>Home</h4></a>
+        <a href="aboutus.html"><h4>About Us</h4></a>
+        
+        <a href="#inforrmation.html"><h4>Information</h4> </a>
+        <a href="services.html"><h4>Services</h4> </a>
         </div>
         
         
@@ -179,7 +180,7 @@
         </div>
         <div class="seeds">
     
-            <div class="container">
+            <div class="container" >
                 <img src="images/njahi-removebg-preview.png" alt="" class="img" width="180px" height="120px" style="margin-top: 20px;">
                 <h4>Njahi</h4>
                 <p>Lentils prefer loose, well-drained soil rich in organic matter. 
@@ -218,24 +219,27 @@
 
            
         </div>
-        <div style="margin-left: 300px; margin-bottom: 10px;" >
-            <form action="mailto:dannjoro433@gmail.com">
-            <h5 id="contacts">Need help!</h5>
-            <a href=""><input type="submit" value="Contact Us" class="btn" ></a>
-        </form>
-        </div>
-        <div style="float: right; margin-top: -110px; margin-right: 300px;">
-            <h5>Want to purchase?</h5>
-        <input type="submit" value="Order now" class="btn">
-        </div>
+        
+       
         
 
-
     <div class="form">
+        <div class="" >
+            
+            <div style="margin-top: 40px; margin-bottom: 10px; background-color: #f0d1ad;"> 
+                <form action="mailto:dannjoro433@gmail.com">
+                <h1 id="contacts">Need help from our expert?!</h1>
+                <img src="images/email.jpeg" alt="" height="400px"> <br>
+                <a href=""><input type="submit" value="Contact Our expert" class="btn" style="width:160px"></a>
+            </form>
+            </div>
+
+        </div>
+
         <div class="contain">
-            <form action="" name="myform" method="">
-                <img src="/images/logo-removebg-preview.png" alt="" height="60px">
-                <h3>Please fill the form below</h3>
+            <form action="">
+                <img src="images/logo-removebg-preview.png" alt="" height="60px">
+                <h1>Want to place an order!! <br> Please fill the form below.</h1>
                 <label for="fname">Full Name</label> <br> <br>
                 <input type="text" id="fname" name="fullname" placeholder="Full Name" required> <br> <br>
                 
@@ -243,34 +247,12 @@
                 <label for="email">Email Address</label> <br> <br>
                 <input type="text" id="email" name="email" placeholder="Email" required> <br> <br>
         
-                <label for="Phone">Phone</label> <br> <br>
-                <input type="text" id="phone" name="phone" placeholder="Phone Number" required> <br> <br>
-        
-                <label for="message">Message</label> <br> <br>
-                
-                <textarea name="message" id="message"  placeholder="Write your message" style="height: 200px;" required></textarea> <br>
-         <br>
-                <input type="submit" value="Send Message" class="btn" onclick="">
-            </form>
-        </div>
-
-        <div class="contain">
-            <form action="">
-                <img src="/images/logo-removebg-preview.png" alt="" height="60px">
-                <h3>Please fill the form below</h3>
-                <label for="fname">Full Name</label> <br> <br>
-                <input type="text" id="fname" name="fullname" placeholder="Full Name" > <br> <br>
-                
-        
-                <label for="email">Email Address</label> <br> <br>
-                <input type="text" id="email" name="email" placeholder="Email" > <br> <br>
-        
                 <label for="phone">Phone</label> <br> <br>
-                <input type="text" id="phone" name="phone" placeholder="Phone Number" > <br> <br>
+                <input type="text" id="phone" name="phone" placeholder="Phone Number" required> <br> <br>
         
                 <label for="message">Products to Order</label> <br> <br>
                 
-                <textarea name="message" id="message"  placeholder="Please input the product and the quantity" style="height: 200px;"></textarea> <br>
+                <textarea name="message" id="message"  placeholder="Please input the product and the quantity" style="height: 200px;" required></textarea> <br>
          <br>
                 <input type="submit" value="Place Order" class="btn" onsubmit="">
             </form>
@@ -279,35 +261,64 @@
         
         
     </div>
-
-    <div class="footer">
-       <div class="foot">
-        <div> 
-            <a href=""><i class="fas fa-map-marker-alt"></i></a>
-            <h3>ADDRESS</h3>
-            <h5>Ngong Lane Plaza</h5>
-           <h5>1520-2000</h5>
+    <div class="mainfooter">
+        <section class="footer">
+            <div class="address">
+                <img src="images/lg image.png" alt="" id="image" >
+                <br>
+                <div class="news">
+                    Subscribe to our News Letter
+                    <form>
+                        <input type="text" name="email" id="email" placeholder="Enter your email">
+                    </form>
+                     <button class="btn">submit</button>
+                </div>
+            </div>
+           <div class="mail">
+               <h2>
+                   Quick links
+               </h2>
+               <ul>
+                   <li> <a href="#">Home</a></li>
+                   <li> <a href="">About us</a></li>
+                   <li> <a href="">Information</a></li>
+                   <li> <a href="">Services</a></li>
+               </ul>
+           </div>
+            <div class="call">
+                <h2>Contact us</h2>
+                <i class="fas fa-phone-alt phone"></i>
+                <p>
+                    PHONE <br>
+                    +254722222222 <br>
+                    +254738121212
+                </p>
+                <i class="fas fa-envelope-open-text email"></i>
+            <p>
+                EMAIL <br>
+                mfarmer@gmail.com <br>
+                 mfarmer@info.com
+            </p>
+            <i class="fas fa-map-marker-alt location"></i>
+                <p>
+                    ADDRESS <br>
+                    Ngong Lane Plaza <br>
+                    Ngong Road <br>
+                    1520-2000
+                </p>
+            </div>
+        </section>
+        <div class="images">
+           <a href="https://www.facebook.com/" target="/blank"><img src="images/fb.png" alt="" width="50px"  ></a>
+           <a href="https://www.instagram.com/accounts/login/" target="/blank" ><img src="images/ig.png" alt="" width="50px" ></a>
+           <a href="https://twitter.com/login" target="/blank" ><img src="images/twt.png" alt="" width="50px" ></a>
         </div>
-        <div>
-           <a href=""><i class="fas fa-envelope-open-text"></i></a> 
-           <h3>EMAIL</h3>
-           <h5></h5>
-           
-        </div>
-        <div>
-            <a href=""><i class="fas fa-phone-alt" ></i></a>
-            <h3 >PHONE</h3>
-            <h5>254722222222</h5>
-            <h5>254738121212</h5>
-        </div>
-        <div>
-            
-        </div>
-       </div>
-        <div>
-            <h4>&copy;Copyright M-Farmers</h4>
-        </div>
+        <p class="copyrite">
+            @Copyright M-Farmers
+        </p>
     </div>
+
+    
 
 
 
