@@ -66,12 +66,19 @@
     height: 80vh;
     width:100% ;
     text-align: center;
+    font-weight: bold;
+   
+}
+.about p{
     color: white;
+    font-size: 60px;
+    padding: 450px;
 }
 .about h3 {
     padding: 580px;
     font-weight: bold;
     font-size: 60px;
+    
 }
 .company{
     padding: 40px;
