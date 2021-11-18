@@ -141,6 +141,7 @@ input[type=text], textarea {
 
 nav{
     display: flex ;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 3px;
     background-color: #53AE29;
