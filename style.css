@@ -187,18 +187,26 @@
 
 .mainfooter{
     background-color: #53AE29;
+   
 }
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
-    margin: 0 7%;
+    padding: 10px;
+    margin: 0 5%;
 }
 
 .footer .address .location{
     font-size: 35px;
     
+}
+
+.footer .mail{
+    
+    font-size: 35px;
+    line-height: 50px;
+   
 }
 
 .footer .mail .email{
@@ -222,6 +230,7 @@
     margin: 0% 40%;
     
 }
+
 .images:hover{
     color: #A88357;
 }
@@ -229,4 +238,56 @@
 .mainfooter .copyrite{
    text-align: center;
     font-size: 15px;
+}
+#image{
+   
+    margin-right: 30px;
+}
+.footer .news{
+    
+    font-size: 45px;
+}
+.mail ul{
+    list-style: none;
+}
+
+.mail ul li {
+    text-decoration: none;
+}
+
+.fb{
+    font-size: 50px;
+    color: black;
+}
+.ig{
+    font-size: 50px;
+    color: purple;
+}
+.tw{
+    font-size: 50px;
+    color:black;
+}
+
+.btn{
+    padding: 15px 45px;
+    border-radius:  25px 25px 10px 25px;
+    background-color: #A88357;
+    border: none;
+    font-weight: bold;
+    width: 180px;
+}
+
+input[type=text], textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid rgb(172, 16, 16);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    color:#53AE29;;
+    background-color: #EBDFD1;
 }
