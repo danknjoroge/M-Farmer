@@ -1,140 +1,254 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
-.top {
+.nav-bar{
+    background-color: #53AE29;
+    align-items: center;
     display: flex;
-    justify-content: space-between;
-    background-color: #53ae29;
    
-
+    justify-content: space-between;  
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
 }
-.logo {
-    font-size: 20px;
+.nav-bar img{
     float: left;
-    
-
-
-}
-.top::after{
-    content: '';
-    display: table;
-    clear: both;
-
-}
-.top h2{
-    display: inline;
     position: relative;
-    margin-top: 40px;
-    margin-left: -750px;
-    
     
 }
-.navlink {
+.nav-bar h3{
+    display: inline;
+    margin-left: -830px;
+   
+    
+}
+a:hover{color: brown;
+}
+.nav-bar a{ 
+   position: relative;
+   display: inline-block;
+   flex-direction: row;
+   margin-right: 50px;
+   text-decoration: none;
+   
+}
+.ourseed>h2{
+    text-align: center;
+    
+}
+
+.img:hover{
+    transform: scale(2.0);
+}
+
+.seeds{
     display: flex;
-    text-decoration: none;
-    justify-content: space-around;
-    width: 30%;
-    font-size: 26px;
-    padding: 30px;
-    float: right;
-    margin-right: -400px;
+    justify-content: space-evenly;
 }
-.navlink li {
-list-style: none;
-
-
-
-}
-.navlink a{
-    text-decoration: none;
-    color: black;
+.container{
+    height: 450px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid green;
+    box-shadow: 2px 3px 4px #A88357;
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+    
 }
 
-.about{
-    background-image: url("images/greenhouse.jpg");
+.btn{
+    padding: 15px 45px;
+    border-radius:  25px 25px 10px 25px;
+    background-color: #A88357;
+    border: none;
+    font-weight: bold;
+    width: 180px;
+}
+
+.btn:hover{
+    color:#53AE29;;
+    background-color: #EBDFD1;
+}
+
+
+    
+
+
+/*form styles*/
+input[type=text], textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid rgb(172, 16, 16);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 10px;
+    
+    }
+
+
+.contain {
+        border-radius: 10px;
+        background-color: #61d62b;
+        padding: 20px;
+        width: 600px;
+        height: 800px;
+        margin-top: 30px;
+        
+
+       
+      }
+.form{
+            display: flex;
+            justify-content: space-evenly;
+        }
+.ourseed .services{
+    background-image: url(images/maizeplant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
-    width:100% ;
-    text-align: center; 
-    color: white;
-}
-.about h3 {
-    padding: 580px;
-    font-weight: bold;
-    font-size: 60px;
+    margin-top: -20px;
 }
 
-.company{
-    padding: 40px;
-    font-size: 30px;
-    font-weight:initial;
-
-}
-
-.seed1{
-   margin-left: 50px;
-}
-
-.company1{
-    padding: 50px;
-}
-
-.company p {
-    float: right;
-    
-}
-.our{
-    background-color: #A88357;
-  
-}  
-
-.mission h5{
-    color: #8D2A2A;
-    font-size: 42px;
-}
- .vision h5 {
-    color: #8D2A2A;
-    font-size: 42px;
- }
-
-.mission{
-    padding-left: 50px;
-    font-size: 30px;
+.advice{
+    border:1px solid brown;
+    width: 80%;
     margin-left: 150px;
-        
+    background-color: #f0d1ad;
+    
+    border-radius: 40px;
+
+}
+.ourseed .services h2,h3{
+    text-align: center;
+    color: white;
+
+}
+.ourseed .services .advice ol{
+    margin-left: 200px;
 }
 
 
-.vision{
-   float: right;
-    font-size:30px;
-   margin-top: -490px;
-   padding-right: 50px;
-   margin-right: 80px;
- 
+.ourseed .services p{
+    margin: 60px;
+    margin-top: -10px;
+    font-size: 18px;}
+    
 
     
+
+*{
+    margin: 0%;}
+
+nav{
+    display: flex ;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    background-color: #53AE29;
+    position: sticky;
 }
-.seeds{
-    padding: 60px;
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar li{
+    padding-right: 40px;
+    padding-top: 30px;
+    list-style: none;
+    font-size: 26px;
+    margin-right: 0%;
+}
+.header_logo{
+    display: flex;
+    justify-content: space-around;
+}
+.header_logo h3{
     font-size: 30px;
-  
+    margin-top: 30px;
+    
 }
-
-.seeds p{
-    padding: 20px;
+.landmap{
+    display: flex;
+    justify-content: space-between;
 }
+.description{
+  font-size: 36px;
+}
+.description h5{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.description p{
+    margin-top: 20px;
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 0px 200px;
+}
+.content{
+    background-color: #EBDFD1;
 
-.seeds h5{
-    color: #8D2A2A;
-    font-size: 42px;
+}
+.content h4{
     text-align: center;
+    padding: 40px;
+    font-size: 26px;
+}
+.box{
+    margin-top: 100px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+.center-box{
+    border: solid 2px black;
+    margin-top: 80px;
+    padding: 10px;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+}
+.main{
+    background-color: #EBDFD1;
+    padding-top: 100px;
+}
+.main h5{
+   text-align: center; 
+   margin-top: 50px;
+   font-size: 30px;
+   padding: 20px;
+}
+.final h3{
+    text-align: center;
+    
 }
 
+.store{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px 0px 80px;
+}
+.box2{
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px grey;
+
+} 
+botton:hover{
+     color:#53AE29;;
+    background-color: #EBDFD1;
+}
+.final button{
+    margin: 50px 600px 30px 500px;
+    padding: 10px 50px 10px 70px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #A88357;
+    border: none;
+
+}
 .mainfooter{
     background-color: #53AE29;
 }
@@ -199,27 +313,10 @@ list-style: none;
 }
 .tw{
     font-size: 50px;
-    color:black;
-}
+    color:black;}
 
-.btn{
-    padding: 15px 45px;
-    border-radius:  25px 25px 10px 25px;
-    background-color: #A88357;
-    border: none;
-    font-weight: bold;
-    width: 180px;
-}
-[12:23 PM] .btn:hover{
-    color:#53AE29;;
-    background-color: #EBDFD1;
-}
-input[type=text], textarea {
-    width: 70%;
-    padding: 12px;
-    border: 1px solid rgb(172, 16, 16);
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-left: 10px;
-    }
+
+
+
+    
+
