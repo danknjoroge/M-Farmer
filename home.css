@@ -291,3 +291,13 @@ input[type=text], textarea {
     color:#53AE29;;
     background-color: #EBDFD1;
 }
+.location{
+    font-size:50px;
+}
+.email{
+    font-size: 50px;
+}
+.phone{
+    font-size: 50px;
+}
+

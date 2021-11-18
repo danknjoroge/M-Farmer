@@ -360,6 +360,18 @@ input[type=text], textarea {
     margin-left: 10px;
     }
 
+.location{
+    font-size:50px;
+}
+.email{
+    font-size: 50px;
+}
+.phone{
+    font-size: 50px;
+}
+
+
+
 
 
 
