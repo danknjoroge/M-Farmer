@@ -10,14 +10,27 @@
 
 </head>
 <body>
+    <script>
+
+        var form = document.getElementById('form');
+
+        var error = []
+        form.addEventListener('submit', function(e){
+            e.preventDefault();
+            
+            var email = document.getElementById()
+        })
+
+    </script>
+
     <div class="nav-bar">
         <img src="images/logo-removebg-preview.png" alt="" height="60px" width="80px">
         <h3 style="color: black;">M-Farmer</h3>
         <div style="float: right;">
-        <a href="#come"><h4>Home</h4></a>
+        <a href="#"><h4>Home</h4></a>
         <a href="#About"><h4>About Us</h4></a>
-        <a href="#">Services</a>
-        <a href="#cotacts">Contacts</a>
+        <a href="#"><h4>Services</h4> </a>
+        <a href="#contacts"><h4>Contacts</h4> </a>
         </div>
         
         
@@ -205,11 +218,13 @@
 
            
         </div>
-        <div style="margin-left: 400px; margin-bottom: 10px;">
-            <h5>Need help!</h5>
-            <a href="contact.html"><input type="submit" value="Contact Us" class="btn"></a>
+        <div style="margin-left: 300px; margin-bottom: 10px;" >
+            <form action="mailto:dannjoro433@gmail.com">
+            <h5 id="contacts">Need help!</h5>
+            <a href=""><input type="submit" value="Contact Us" class="btn" ></a>
+        </form>
         </div>
-        <div style="float: right; margin-top: -110px; margin-right: 400px;">
+        <div style="float: right; margin-top: -110px; margin-right: 300px;">
             <h5>Want to purchase?</h5>
         <input type="submit" value="Order now" class="btn">
         </div>
@@ -218,27 +233,30 @@
 
     <div class="form">
         <div class="contain">
-            <form action="">
+            <form action="" name="myform" method="">
+                <img src="/images/logo-removebg-preview.png" alt="" height="60px">
                 <h3>Please fill the form below</h3>
                 <label for="fname">Full Name</label> <br> <br>
                 <input type="text" id="fname" name="fullname" placeholder="Full Name" required> <br> <br>
+                
         
                 <label for="email">Email Address</label> <br> <br>
                 <input type="text" id="email" name="email" placeholder="Email" required> <br> <br>
         
                 <label for="Phone">Phone</label> <br> <br>
-                <input type="text" id="Phone" name="phone" placeholder="Phone Number" required> <br> <br>
+                <input type="text" id="phone" name="phone" placeholder="Phone Number" required> <br> <br>
         
                 <label for="message">Message</label> <br> <br>
                 
                 <textarea name="message" id="message"  placeholder="Write your message" style="height: 200px;" required></textarea> <br>
          <br>
-                <input type="Submit" value="Send Message" class="btn">
+                <input type="submit" value="Send Message" class="btn" onclick="">
             </form>
         </div>
 
         <div class="contain">
             <form action="">
+                <img src="/images/logo-removebg-preview.png" alt="" height="60px">
                 <h3>Please fill the form below</h3>
                 <label for="fname">Full Name</label> <br> <br>
                 <input type="text" id="fname" name="fullname" placeholder="Full Name" > <br> <br>
@@ -247,14 +265,14 @@
                 <label for="email">Email Address</label> <br> <br>
                 <input type="text" id="email" name="email" placeholder="Email" > <br> <br>
         
-                <label for="email">Phone</label> <br> <br>
+                <label for="phone">Phone</label> <br> <br>
                 <input type="text" id="phone" name="phone" placeholder="Phone Number" > <br> <br>
         
                 <label for="message">Products to Order</label> <br> <br>
                 
                 <textarea name="message" id="message"  placeholder="Please input the product and the quantity" style="height: 200px;"></textarea> <br>
          <br>
-                <input type="submit" value="Place Order" class="btn">
+                <input type="submit" value="Place Order" class="btn" onsubmit="">
             </form>
         </div>
     </div>
@@ -290,6 +308,13 @@
             <h4>&copy;Copyright M-Farmers</h4>
         </div>
     </div>
+
+
+
+    <script src="index.js"></script>
+
+     
+
 
 
 

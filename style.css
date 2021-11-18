@@ -27,6 +27,7 @@ a:hover{color: brown;
    display: inline-block;
    flex-direction: row;
    margin-right: 50px;
+   text-decoration: none;
 }
 .ourseed>h2{
     text-align: center;
@@ -46,7 +47,7 @@ a:hover{color: brown;
     width: 250px;
     border-radius: 15px;
     border: 1px solid green;
-    box-shadow: 2px 3px 4px blue;
+    box-shadow: 2px 3px 4px #A88357;
     text-align: center;
     margin-top: 20px;
     border: none;
@@ -85,7 +86,7 @@ input[type=text], textarea {
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-left: 0px;
+    margin-left: 10px;
     
     }
 
@@ -93,11 +94,13 @@ input[type=submit]:hover {
         background-color: #45a049;
       }
 .contain {
-        border-radius: 5px;
-        background-color: #38e016;
+        border-radius: 10px;
+        background-color: #61d62b;
         padding: 20px;
         width: 600px;
-        height: 700px;
+        height: 800px;
+        
+        margin-bottom: 20px;
 
        
       }
@@ -116,7 +119,7 @@ input[type=submit]:hover {
     border:1px solid brown;
     width: 80%;
     margin-left: 150px;
-    background-color: burlywood;
+    background-color: #f0d1ad;
     
     border-radius: 40px;
 
@@ -136,6 +139,9 @@ input[type=submit]:hover {
     margin-top: -10px;
     font-size: 18px;
     
+}
+.error-hint{
+    color: red;
 }
 
     

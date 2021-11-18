@@ -9,9 +9,22 @@
     
 </head>
 <body>
+    <script>
+        function validateemail()  
+{  
+var x=document.myform.email.value;  
+var atposition=x.indexOf("@");  
+var dotposition=x.lastIndexOf(".");  
+if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+  alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+  return false;  
+  }  
+}  
+</script>  
+    
     <div class="form">
         <div class="contain">
-            <form action="">
+            <form action="" method="post" class="myform" onsubmit="validateemail();">
                 <h3>Please fill the form below</h3>
                 <label for="fname">Full Name</label> <br> <br>
                 <input type="text" id="fname" name="fullname" placeholder="Full Name" required> <br> <br>
