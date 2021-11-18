@@ -1,3 +1,6 @@
+@media (max-width:1600px) {
+    
+
 *{
     margin: 0%;
 }
@@ -6,6 +9,7 @@ nav{
     justify-content: space-between;
     margin-bottom: 3px;
     background-color: #53AE29;
+    position: sticky;
 }
 .nav-bar ul{
     display: flex;
@@ -41,15 +45,19 @@ nav{
 .description p{
     margin-top: 20px;
 }
-.content{
+.content2{
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    justify-content: space-between;
+    margin: 0px 200px 0px 200px;
+}
+.content{
     background-color: #EBDFD1;
 
 }
-.content h5{
+.content h4{
     text-align: center;
+    padding: 40px;
+    font-size: 26px;
 }
 .box{
     margin-top: 100px;
@@ -74,8 +82,9 @@ nav{
 }
 .main h5{
    text-align: center; 
-   font-weight: 100px;
    margin-top: 50px;
+   font-size: 30px;
+   padding: 20px;
 }
 .final h3{
     text-align: center;
@@ -126,4 +135,4 @@ nav{
 .tw{
     font-size: 50px;
     color:black;
-}
+}}
