@@ -134,56 +134,92 @@ list-style: none;
     font-size: 42px;
     text-align: center;
 }
+
+.mainfooter{
+    background-color: #53AE29;
 }
-.pack{
+.footer{
     display: flex;
-    justify-content: relative;
-    float: right;
-    height: 60vh;
-    padding-right: 150px;
-    margin-top: -630px;
-}
-
-.f1 h1{
-    font-weight: 10px;
-    font-size: 10px;
-}
-.address{
-    font-size: 50px;
-    color: black;
-}
-
-.mail{
-    font-size: 50px;
-    color: black;
-}
-
-.call{
-    font-size: 50px;
-    color: black;
-}
-
-.f1 {
-    background-color: #53ae29;
-    padding: 70px;
-}
-
-.icon{
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 40px;
+    padding: 10px;
+    margin: 0 5%;
 }
-.f1 h1{
-color: white;
+.footer .address .location{
+    font-size: 35px;
 }
-
-.f1 p{
+.footer .mail{
+    font-size: 35px;
+    line-height: 50px;
+}
+.footer .mail .email{
+    font-size: 35px;
+}
+.footer .call .phone{
+    font-size: 35px;
+}
+.footer p{
+    line-height: 30px;
+    padding-bottom: 0px;
     color: white;
 }
-.copy{
-    margin-top: 40px;
-    text-align: center;
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    padding: 50px;
+    margin: 0% 40%;
 }
-.lead{
-background-color: #A88357;
+.images:hover{
+    color: #A88357;
 }
+.mainfooter .copyrite{
+   text-align: center;
+    font-size: 15px;
+}
+#image{
+    margin-right: 30px;
+}
+.footer .news{
+    font-size: 45px;
+}
+.mail ul{
+    list-style: none;
+}
+.mail ul li {
+    text-decoration: none;
+}
+.fb{
+    font-size: 50px;
+    color: black;
+}
+.ig{
+    font-size: 50px;
+    color: purple;
+}
+.tw{
+    font-size: 50px;
+    color:black;
+}
+
+.btn{
+    padding: 15px 45px;
+    border-radius:  25px 25px 10px 25px;
+    background-color: #A88357;
+    border: none;
+    font-weight: bold;
+    width: 180px;
+}
+[12:23 PM] .btn:hover{
+    color:#53AE29;;
+    background-color: #EBDFD1;
+}
+input[type=text], textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid rgb(172, 16, 16);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 10px;
+    }
