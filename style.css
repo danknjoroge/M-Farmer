@@ -1,5 +1,5 @@
 .nav-bar{
-    background-color: rgb(25, 230, 25);
+    background-color: #53AE29;
     align-items: center;
     display: flex;
    
@@ -54,18 +54,19 @@ a:hover{color: brown;
     border: none;
     
 }
+
 .btn{
+    padding: 15px 45px;
+    border-radius:  25px 25px 10px 25px;
     background-color: #A88357;
     border: none;
-    color: white;
-    border-radius: 10px;
-    
-    height: 40px;
-    width: 100px;
-    text-align: center;
+    font-weight: bold;
+    width: 180px;
+}
 
-   
-    
+.btn:hover{
+    color:#53AE29;;
+    background-color: #EBDFD1;
 }
 
 
@@ -84,9 +85,7 @@ input[type=text], textarea {
     
     }
 
-input[type=submit]:hover {
-        background-color: #45a049;
-      }
+
 .contain {
         border-radius: 10px;
         background-color: #61d62b;
@@ -176,9 +175,7 @@ input[type=submit]:hover {
    text-align: center;
     font-size: 15px;
 }
-#image{
-    margin-right: 30px;
-}
+
 .footer .news{
     font-size: 45px;
 }
@@ -188,6 +185,19 @@ input[type=submit]:hover {
 .mail ul li {
     text-decoration: none;
 }
+.fb{
+    font-size: 50px;
+    color: black;
+}
+.ig{
+    font-size: 50px;
+    color: purple;
+}
+.tw{
+    font-size: 50px;
+    color:black;}
+
+
 
 
     
