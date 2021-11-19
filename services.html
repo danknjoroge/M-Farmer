@@ -260,7 +260,7 @@
                 
                 <textarea name="message" id="message"  placeholder="Please input the product and the quantity" style="height: 200px;" required></textarea> <br>
          <br>
-                <input type="submit" value="Place Order" class="btn" onsubmit="">
+                <input type="submit" value="Place Order" class="btn" onsubmit="" onclick="myFunction()">
             </form>
         </div>
     </div>
@@ -324,7 +324,11 @@
         </p>
     </div>
 
-    
+    <script>
+        function myFunction() {
+          alert("Order Submitted");
+        }
+        </script>
 
 
 
