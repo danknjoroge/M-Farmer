@@ -3,7 +3,7 @@
 M-FARMER
 
 ## Author
-DAniel Njoroge
+Daniel Njoroge
 Saitore Virginia
 Vyonna Njenga
 Esau Kiprono
@@ -29,7 +29,7 @@ This is a project that shows a seeds  website. Besides it shows the available se
 
 ## Known Bugs 
 
-There are no known bugs at the moment but if any spotted you can reach our group leader daniel.njoroge@student.moringaschool.com
+There are no known bugs at the moment but if any spotted you can reach our group through dank8505@gmail.com
 
 ## Licence
 
